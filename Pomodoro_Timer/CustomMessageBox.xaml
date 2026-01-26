@@ -1,0 +1,61 @@
+﻿<Window x:Class="PomodoroTimer.CustomMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Notification" Height="250" Width="350"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        MouseDown="Window_MouseDown">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Opacity" Value="0.8"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border x:Name="MainBorder" CornerRadius="20" Background="White" Margin="10">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="20" ShadowDepth="5" Opacity="0.3" Color="#555555"/>
+        </Border.Effect>
+
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock x:Name="TitleText" Text="Success! 🎉" 
+                       FontSize="22" FontWeight="Bold" Foreground="#555" 
+                       HorizontalAlignment="Center" FontFamily="Comic Sans MS"
+                       Margin="0,10,0,10"/>
+
+            <TextBlock x:Name="MessageText" 
+                       Text="Your statistics have been saved successfully." 
+                       FontSize="16" Foreground="#777" 
+                       TextWrapping="Wrap" TextAlignment="Center"
+                       VerticalAlignment="Center" Grid.Row="1"
+                       Margin="10"/>
+
+            <Button Content="Oki Doki 👍" Click="Ok_Click" 
+                    Height="40" Width="120" 
+                    Background="#A0E7E5" Grid.Row="2" Margin="0,10,0,0"/>
+        </Grid>
+    </Border>
+</Window>
