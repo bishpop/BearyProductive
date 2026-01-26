@@ -1,4 +1,4 @@
-# 🐻 San Pomodoro Timer
+# 🐻 Beary Productive Pomodoro Timer
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue) ![Language](https://img.shields.io/badge/Language-C%23%20%7C%20WPF-purple) ![License](https://img.shields.io/badge/License-MIT-green) ![Vibe](https://img.shields.io/badge/Vibe-Cozy%20%26%20Cute-pink)
 
