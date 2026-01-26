@@ -10,7 +10,7 @@ Developed with ❤️ by **Sanya**.
 
 ## ✨ Features
 
-* **🧸 Animated Companion:** A cute bear that floats and changes appearance based on your status (Brown = Focus / White = Break).
+* **🧸 Animated Companion:** A cute bear that floats around.
 * **🎨 Fully Customizable:**
     * Beautiful **Pastel Themes** for the background.
     * Support for **Color Gradients** on text and progress bars.
@@ -67,7 +67,7 @@ Here is a sneak peek of the application in action.
 
 * **▶ Start / ⏸ Pause:** Starts or pauses the current timer.
 * **⟳ Reset:** Resets the timer to the beginning of the interval.
-* **_ (Underscore):** Activates **Mini-Mode** (Widget in the bottom right corner).
+* **_ (Underscore):** Activates **Mini-Mode** (Widget in the bottom right corner, which can be moved).
 * **⚙ (Gear Icon):** Opens the **Settings** menu (Colors, Durations, Sound).
 * **Always On Top:** Can be enabled in the settings (📌).
 
