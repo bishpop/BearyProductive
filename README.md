@@ -56,7 +56,7 @@ Here is a sneak peek of the application in action.
 ### For Developers
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/SanPomodoroTimer.git](https://github.com/YOUR-USERNAME/SanPomodoroTimer.git)
+    git clone [https://github.com/0x53616E/SanPomodoroTimer.git](https://github.com/0x53616E/SanPomodoroTimer.git)
     ```
 2.  Open the solution file `PomodoroTimer.sln` in **Visual Studio**.
 3.  Click **Start** (F5) to build and run the application.
