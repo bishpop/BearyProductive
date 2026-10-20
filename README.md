@@ -84,6 +84,3 @@ Here is a sneak peek of the application in action.
 ## 📝 License
 
 This project is licensed under the MIT License. Feel free to fork it and make it your own!
-
----
-*© Sanya - Created for a cozy workflow.*
